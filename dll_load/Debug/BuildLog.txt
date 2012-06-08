@@ -1,0 +1,27 @@
+﻿Build started 6/7/2012 8:26:02 PM.
+     1>Project "c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\dll_load.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\dll_load.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\dll_load.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _XBOX /GF- /Gm /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yc"StdAfx.h" /Fp"c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\Debug\dll_load.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP stdafx.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _XBOX /GF- /Gm /MTd /GS- /Gy- /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\Debug\dll_load.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP dll_load.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         dll_load.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\Debug\$dlllinker.dll" /INCREMENTAL /NOLOGO /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\Debug\dll_load.pdb" /STACK:"262144","262144" /TLBID:1 /ENTRY:"DllMain" /IMPLIB:"c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\Debug\$dlllinker.lib" Debug\dll_load.obj
+         Debug\stdafx.obj /ignore:4089 /dll /entry:"_DllMainCRTStartup" /include:"XboxKrnlBuildNumber" /ALIGN:128,4096 /XEX:NO
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\Debug\dll_load.dll" /baseaddr:"0x08000000" "c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\Debug\$dlllinker.dll" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.20871.0
+         (c)2011 Microsoft Corporation. All rights reserved.
+         
+       FinalizeBuildStatus:
+         Deleting file "Debug\dll_load.unsuccessfulbuild".
+         Touching "Debug\dll_load.lastbuildstate".
+     1>Done Building Project "c:\Users\kids\documents\visual studio 2010\Projects\dll_load\dll_load\dll_load.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.84
